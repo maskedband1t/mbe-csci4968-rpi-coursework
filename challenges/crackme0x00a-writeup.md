@@ -27,7 +27,7 @@ At this point:
   - So I backed out of the running exe by hitting control-C
   - Then hex dumped the file :
 
-  -     -xxd crackme0x00a
+  -     xxd crackme0x00a
 
 I then saw a hex dump side-by-side to a slightly more coherent version of the dump;
 
