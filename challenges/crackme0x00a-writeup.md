@@ -44,3 +44,18 @@ I went back into the executable:
 
 
 # Voila!
+
+
+
+
+##### Alternative Way:
+
+Doing everything the same until the hex dump as before:
+    -You can type
+
+
+        strings crackme0x00a
+
+What this does, is to output every string in the dump greater than 4 characters, searching through this list, we can find our eventual password:
+
+            g00dJ0B!
